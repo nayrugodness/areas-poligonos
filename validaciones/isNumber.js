@@ -1,12 +1,8 @@
-
-async function isNumber(dato) {
-
-    const validacion = typeof dato
-    if (validacion === 'number') {
-        return true
+function isNumber(dato) {
+    if (typeof dato === 'number' && !isNaN(dato)) {
+        return true;
     } else {
-        return false
+        return false;
     }
 }
-
 module.exports = isNumber;

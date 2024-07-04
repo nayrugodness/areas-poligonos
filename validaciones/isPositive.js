@@ -1,10 +1,9 @@
-async function isPositive(dato) {
-
-    const validacion = dato > 0;
-    if (validacion) {
-        return true
+function isPositive(dato) {
+    // Verifica si dato es numérico y positivo
+    if (typeof dato === 'number' && dato > 0) {
+        return true;
     } else {
-        return false
+        return false;
     }
 }
 

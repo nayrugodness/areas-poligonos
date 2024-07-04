@@ -1,4 +1,4 @@
-async function rectangulo(lado, ancho){
+function rectangulo(lado, ancho){
 
     const calculo = lado * ancho;
     return calculo
