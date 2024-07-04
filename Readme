@@ -16,6 +16,10 @@ a separar en módulos cada funcionalidad del software, vas a encontrar las sigui
     - triangulo.js
 -menu :
     - menu.js
+- resultados :
+    - triangulo.json
+    Nota : cada que uses la calculadora se generará un archivo con el resultado que obtuviste 
+    en esta carpeta
 -validaciones :
     - isNumber.js
     - isPositive.js

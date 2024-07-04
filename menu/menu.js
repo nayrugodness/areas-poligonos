@@ -4,6 +4,7 @@ const numberAndPositive = require('../validaciones/numberAndPositive');
 const cuadrado = require('../formulas/cuadrado');
 const rectangulo = require('../formulas/rectangulo');
 const circulo = require('../formulas/circulo');
+const crearJSON = require('./crearJson');
 
 const rl = readline.createInterface({
   input: process.stdin,
