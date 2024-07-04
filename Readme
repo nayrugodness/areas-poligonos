@@ -1,0 +1,33 @@
+Hola, este repositorio es un ejercicio de programación en NodeJS que calcula
+las áreas de los polígonos :
+
+-triángulo
+-cuadrado
+-rectángulo
+-circulo
+
+para ello usarás nodejs, y programación modular, quiere decir que vamos
+a separar en módulos cada funcionalidad del software, vas a encontrar las siguientes carpetas
+
+- formulas:
+    - circulo.js
+    - cuadrado.js
+    - rectangulo.js
+    - triangulo.js
+-menu :
+    - menu.js
+-validaciones :
+    - isNumber.js
+    - isPositive.js
+    - numberAndPositive.js
+
+antes de usar la calculadora instala las dependencias:
+
+npm i 
+
+luego para que funcione usa :
+
+npm run start
+
+puedes modificar el código todo cuanto quieras, refactorizarlo etc.. 
+Nunca pares de aprender
